@@ -6,6 +6,6 @@ if [ -z "$EDGE" ]; then
 else
   apt-get install -qy git
   rm -rf /opt/lazylibrarian
-  git clone https://github.com/DobyTang/LazyLibrarian.git /opt/lazylibrarian
+  git clone https://github.com/lazylibrarian/LazyLibrarian.git /opt/lazylibrarian
   chown -R nobody:users /opt/lazylibrarian
 fi
